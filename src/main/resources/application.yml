@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: mi-primer-web
+  server:
+    port: 15467
+  datasource:
+    url: 
+    username: postgres
+    password: LOL26121979
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  data:
+    mongodb:
+      uri: 
+      database: ada  # <-- Agrega esta línea
+
+#spring:
+#  datasource:
+#    url: ${DATABASE_URL} <-- agregar en el intellij buenas practicas
+
